@@ -217,6 +217,38 @@ List data = [
       "I'll send someone up to help you now."
     ],
   },
+  {
+    "id": 8,
+    "lesson": 1,
+    "day": 1,
+    "kanji": "断",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 11,
+    "kun": ["ことわ.る"],
+    "on": ["ダン "],
+    "compound": ["無断", "断水", "断る"],
+    "compound_furigana": ["無（む）」断（だん）", "断（だん）」水（すい）", "断（ことわ）」る"],
+    "compound_unicode": ["", "", ""],
+    "compound_zawgyi": ["", "", ""],
+    "compound_english": [
+      "without permission",
+      "suspension of the water supply",
+      "refuse"
+    ],
+    "example": ["彼女はよく無断欠席をする。", "断水しました。", "彼は握手を断った。"],
+    "example_furigana": [
+      "彼女 (かのじょ)」 は」よく」無断(むだん)」欠席(けっせき)」をする。",
+      "断水(だんすい)」しました。",
+      "彼(かれ)」は」握手 (あくしゅ)」 を」断 (ことわ)」った。",
+    ],
+    "example_unicode": ["", "", ""],
+    "example_zawgyi": ["", "", ""],
+    "example_english": [
+      "She is often absent without leave.",
+      "The water has been cut off.",
+      " He refused to shake hands."
+    ],
+  },
 ];
-// first time with git
-
