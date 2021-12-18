@@ -46,7 +46,7 @@ List data = [
       "無(な)」い"
     ],
     "compound_unicode": ["", "", "", ""],
-    "compound_zawgyi": ["", "", "",""],
+    "compound_zawgyi": ["", "", "", ""],
     "compound_english": [
       "without a holiday",
       "free (of charge)",
@@ -133,19 +133,90 @@ List data = [
       "The bus was heading north"
     ],
   },
+  {
+    "id": 5,
+    "lesson": 1,
+    "day": 1,
+    "kanji": "禁",
+    "key": [],
+    "mean": ["", "", "prohibition"],
+    "url": ".gif",
+    "strokes": 13,
+    "kun": ["-"],
+    "on": ["キン"],
+    "compound": ["禁止", "禁煙"],
+    "compound_furigana": ["禁（きん）」止 （し）", "禁（きん）」煙（えん）"],
+    "compound_unicode": ["", ""],
+    "compound_zawgyi": ["", ""],
+    "compound_english": ["prohibition", "Smoking Prohibited"],
+    "example": ["両親は私がまたトムと会うことを禁止した。", "彼女は禁煙した"],
+    "example_furigana": [
+      " 両親 (りょうしん)」 は 」 私 (わたし)」がまたトムと 」会う (あう)」 ことを  」 禁止 (きんし)」した。",
+      "父 (ちち)」は 」禁煙 (きんえん) 」を」 決意 (けつい)」した"
+    ],
+    "example_unicode": ["", ""],
+    "example_zawgyi": ["", ""],
+    "example_english": [
+      "My parents prohibited me from seeing Tom again.",
+      "Father decided to stop smoking."
+    ],
+  },
+  {
+    "id": 6,
+    "lesson": 1,
+    "day": 1,
+    "kanji": "関",
+    "key": [],
+    "mean": ["", "", "connection"],
+    "url": ".gif",
+    "strokes": 14,
+    "kun": ["-"],
+    "on": ["カン"],
+    "compound": ["関心", "関する"],
+    "compound_furigana": ["関（かん）」心（しん）", "関（かん）」する"],
+    "compound_unicode": ["", ""],
+    "compound_zawgyi": ["", ""],
+    "compound_english": ["interest", "be related", "", ""],
+    "example": ["彼女は関心がなさそうな様子だった。", "私は動物に関する本を読んでいる"],
+    "example_furigana": [
+      "彼女 (かのじょ)」 は」 関心 (かんしん)」 なさそうな 」 様子 (ようす)」 だった",
+      " 私 (わたし)」は」 動物 (どうぶつ)」に」 関する (かんする) 」本 (ほん)」を」 読 (よ)ん」でいる。"
+    ],
+    "example_unicode": ["", "", "", ""],
+    "example_zawgyi": ["", "", "", ""],
+    "example_english": [
+      "She didn't seem interested.",
+      "I am reading a book about animals."
+    ],
+  },
+  {
+    "id": 7,
+    "lesson": 1,
+    "day": 1,
+    "kanji": "係",
+    "key": [],
+    "mean": ["", "", "person in charge"],
+    "url": ".gif",
+    "strokes": 9,
+    "kun": ["かかり"],
+    "on": ["ケイ"],
+    "compound": ["関係", "係"],
+    "compound_furigana": ["関（かん）」係（けい）", "係（かかり）"],
+    "compound_unicode": ["", ""],
+    "compound_zawgyi": ["", ""],
+    "compound_english": ["relation, connection", "person in charge"],
+    "example": ["両者の間に関係はない。", "今、誰か係りの者を差し向けます。"],
+    "example_furigana": [
+      "両者(りょうしゃ) 」 の」 間(あいだ)」 に」 関係(かんけい)」はない。",
+      "今(いま)、」誰か(だれか)」係 (かかり)」の」者(もの」)を」 差し向け(さしむけ)」ます。"
+    ],
+    "example_unicode": ["", ""],
+    "example_zawgyi": ["", ""],
+    "example_english": [
+      "There is no connection between them.",
+      "I'll send someone up to help you now."
+    ],
+  },
 ];
+// first time with git
 
-void main(List<String> args) {
-  for(int i = 0 ; i< data.length ; i++){
-    int compound = data[i]['compound'].length;
-    int furi = data[i]['compound_furigana'].length;
-    int unicode = data[i]['compound_unicode'].length;
-    int zawgyi = data[i]['compound_zawgyi'].length;
-    int eng = data[i]['compound_english'].length;
-    if(compound==furi && compound == unicode && compound==zawgyi && compound==eng){
-      print('index $i valid');
-    }else{
-      print('index $i invalid');
-    }  
-	}
-}
