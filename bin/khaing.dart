@@ -215,9 +215,9 @@ List data = [
     "on": ["カン"],
     "compound": ["関心", "関する"],
     "compound_furigana": ["関（かん）」心（しん）", "関（かん）」する"],
-    "compound_unicode": ["", ""],
-    "compound_zawgyi": ["", ""],
-    "compound_english": ["interest", "be related", "", ""],
+    "compound_unicode": ["",""],
+    "compound_zawgyi": ["",""],
+    "compound_english": ["interest", "be related"],
     "example": ["彼女は関心がなさそうな様子だった。", "私は動物に関する本を読んでいる"],
     "example_furigana": [
       "彼女 (かのじょ)」 は」 関心 (かんしん)」 なさそうな 」 様子 (ようす)」 だった",
