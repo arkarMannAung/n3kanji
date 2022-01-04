@@ -1,3 +1,44 @@
+/*{
+    "id": ,
+    "lesson": 1,
+    "day": 1,
+    "kanji": "",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": ,
+    "kun": [""],
+    "on": [""],
+    "compound": ["", "", "", ""],
+    "compound_furigana": [
+      "（）」（）",
+      "（）」（）",
+      "（）」（）",
+      "（）」（）",
+    ],
+    "compound_unicode": ["", "", "", ""],
+    "compound_zawgyi": ["", "", "", ""],
+    "compound_english": [
+      	"",
+ 	      "",
+ 	      "", 
+	      ""
+    ],
+    "example": ["", "", "", ""],
+    "example_furigana": [
+     	"",
+      "",
+     	"", 
+	    ""],
+    "example_unicode": ["", "", "", ""],
+    "example_zawgyi": ["", "", "", ""],
+    "example_english": [
+      "",
+      "",
+      "",
+      ""
+    ],
+  },*/
 List data = [
   {
     "id": 1,
@@ -249,6 +290,268 @@ List data = [
       "She is often absent without leave.",
       "The water has been cut off.",
       " He refused to shake hands."
+    ],
+  },
+  {
+    "id": 9,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "横",
+    "key": [],
+    "mean": ["", "", "side"],
+    "url": ".gif",
+    "strokes": 15,
+    "kun": [" よこ"],
+    "on": ["オウ"],
+    "compound": ["横断", "横"],
+    "compound_furigana": ["横（おう）」断（だん）", "横（よこ）", "横（おう）」断（だん）」歩（ほ）」道（どう）"],
+    "compound_unicode": ["", "", "", ""],
+    "compound_zawgyi": ["", "", "", ""],
+    "compound_english": ["a crossing", "side", "a pedestrian crossing"],
+    "example": [
+      "私は彼が通りを横断するのを見た。",
+      "母親は赤ん坊をベッドに横にした。",
+      "道路を渡る前には、信号が青の横断歩道であっても全方位を確認しないといけない。"
+    ],
+    "example_furigana": [
+      "私(わたし)」は 」彼(かの)」女(じょ)」が 」通(とお)」りを 」横(おう)」断（だん）」するのを」見(み)」た。",
+      "母(はは)」親(おや)」は」赤(あか)」ちゃん」坊(ぼう)」をベッドに」横（よこ）」にした。",
+      "道(どう)」路(ろ)」を」渡(渡)」る 」前(まえ)」には、」信(しん)」号(ごう)」が」青(あお)」の」横（おう）」断（だん）」歩（ほ）」道（どう）」であっても」全(ぜん)」方(ほう)」位(い)」を」確(かく)」認(にん)」しないといけない。"
+    ],
+    "example_unicode": ["", "", ""],
+    "example_zawgyi": ["", "", ""],
+    "example_english": [
+      "I saw him cross the street.",
+      "The mother laid her baby on the bed.",
+      "You need to look in all directions before crossing the street, even at a crosswalk when the light is green."
+    ],
+  },
+  {
+    "id": 10,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "押",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 8,
+    "kun": ["お.す", " お.さえる"],
+    "on": ["ー"],
+    "compound": ["押す", "押し入れ", "押さえる"],
+    "compound_furigana": [
+      "押（お）」す",
+      "押（お）」し」入（い）」れ",
+      "押（お）」さえる",
+    ],
+    "compound_unicode": ["", "", ""],
+    "compound_zawgyi": ["", "", ""],
+    "compound_english": ["push", "a sliding-door cloest", "hold down"],
+    "example": ["シャッターを押してくれますか。", "私は押入れに閉じ込められるのがこわかった。", "戸を押さえてくれ。"],
+    "example_furigana": [
+      "シャッターを」押（お）」してくれますか。",
+      "私（わたし）」は」押（お）」し」入（い）」れ」に閉（と）」じ」込（こ）」められるのがこわかった。",
+      "戸（と）」を押（お）」さえてくれ。"
+    ],
+    "example_unicode": ["", "", ""],
+    "example_zawgyi": ["", "", ""],
+    "example_english": [
+      "Could you press this button?",
+      "I was afraid of being put into a closet.",
+      "Hold the door."
+    ],
+  },
+  {
+    "id": 11,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "式",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 6,
+    "kun": ["ー"],
+    "on": ["シキ"],
+    "compound": ["押しボタン式", "数式", "入学式"],
+    "compound_furigana": [
+      "押（お）」し」ボタン」式（しき）」",
+      "数（すう）」式（しき）",
+      "入（にゅう）」学（がく）式（しき）"
+    ],
+    "compound_unicode": ["", "", ""],
+    "compound_zawgyi": ["", "", ""],
+    "compound_english": [
+      "a push-button",
+      "a numeral formula",
+      "an entrance ceremory"
+    ],
+    "example": ["これは理論の根幹となる数式である。", "入学式は十時から行います", ""],
+    "example_furigana": [
+      "これは」理（り）」論（ろん）」の」根（こん）」幹（かん）」となる」数（すう）」式（しき）」である。",
+      "入（にゅう）」学（がく）」式（しき）」は十（じゅう）」時（じ）」から」行（おこな）」います",
+      ""
+    ],
+    "example_unicode": ["", "", ""],
+    "example_zawgyi": ["", "", ""],
+    "example_english": [
+      "This formula is the basis of the theory.",
+      "The entrance ceremony will be held at 10 o'clock.",
+      ""
+    ],
+  },
+  {
+    "id": 12,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "信",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 9,
+    "kun": [""],
+    "on": [""],
+    "compound": ["送信", "自信", "信じる", "信用"],
+    "compound_furigana": [
+      "送（そう）」信（しん）",
+      "自（じ）」信（しん）",
+      "信（しん）」じる",
+      "信（しん）」用（よう）",
+    ],
+    "compound_unicode": ["", "", "", ""],
+    "compound_zawgyi": ["", "", "", ""],
+    "compound_english": ["transmission", "confidence", "believe", "trust"],
+    "example": [
+      "なんか送信ミスってた。",
+      "君は自分が申し立てていることに自信がありますか。",
+      "信じてくれる？",
+      "私はもう彼を信用しない"
+    ],
+    "example_furigana": [
+      "なんか」送（そう）」信（しん）」ミスってた。",
+      "君（きみ）」は」自（じ）」分（ぶん）」が」申（もう）」し」立（た）」ていることに」自（じ）」信（しん）」がありますか。",
+      "信（しん）」じてくれる？",
+      "私（わたし）」はもう」彼（かれ）」を信（しん）」用（よう）」しない"
+    ],
+    "example_unicode": ["", "", "", ""],
+    "example_zawgyi": ["", "", "", ""],
+    "example_english": [
+      "I made a mistake in sending it or something.",
+      " Are you sure of your facts?",
+      "Do you believe me?",
+      "I do not trust him any longer."
+    ],
+  },
+  {
+    "id": 13,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "号",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 5,
+    "kun": ["ー"],
+    "on": ["ゴウ"],
+    "compound": ["信号", "号車"],
+    "compound_furigana": ["信（しん）」号（ごう）", "号（ごう）」車（しゃ）"],
+    "compound_unicode": ["", ""],
+    "compound_zawgyi": ["", ""],
+    "compound_english": ["a traffic light", "carrige number"],
+    "example": ["信号が青に変わったわよ", "またはカフェテリアは９号車にあります。"],
+    "example_furigana": [
+      "信（しん）」号（ごう）」が」青（あお）」に」変（か）」わったわよ",
+      "またはカフェテリアは」９」号（ごう）」車（しゃ）」にあります。"
+    ],
+    "example_unicode": ["", ""],
+    "example_zawgyi": ["", ""],
+    "example_english": [
+      "The traffic light turned green",
+      "the cafeteria is in Car 9.",
+    ],
+  },
+  {
+    "id": 14,
+    "lesson": 1,
+    "day": 1,
+    "kanji": "確",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 15,
+    "kun": [" たし.か, たし.かめる"],
+    "on": [" カク"],
+    "compound": ["正確な", "確かな", "確かめる"],
+    "compound_furigana": ["正（せい）」確（かく）」な", "確（たし）」かな", "確（たし）」かめる"],
+    "compound_unicode": ["", "", ""],
+    "compound_zawgyi": ["", "", ""],
+    "compound_english": ["correct", "certain", "verify"],
+    "example": ["この時計の時間は正確だ。", "彼が間違っているのは確かです", "私は時計で時刻を確かめた。"],
+    "example_furigana": [
+      "この」時（と）」計（けい）」の」時（じ）」間（かん）」は」正（せい）」確（かく）」だ。",
+      "彼（かれ）」が」間（まち）」違（が）」っているのは」確（たし）」かです",
+      "私（わたし）」は」時（と）」計（けい）」で」時（じ）」刻（こく）」を」確（たし）」かめた。"
+    ],
+    "example_unicode": ["", "", ""],
+    "example_zawgyi": ["", "", ""],
+    "example_english": [
+      "This watch keeps correct time.",
+      "It is certain that he is wrong.",
+      "I checked the time on the clock."
+    ],
+  },
+  {
+    "id": 15,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "認",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 14,
+    "kun": ["みと.める"],
+    "on": ["ニン"],
+    "compound": ["確認", "認める"],
+    "compound_furigana": ["確（かく）」認（にん）", "認（みと）」める"],
+    "compound_unicode": ["", ""],
+    "compound_zawgyi": ["", ""],
+    "compound_english": ["confirmation", "approve", "", ""],
+    "example": ["予約は確認されています。", "彼は負けを認めた"],
+    "example_furigana": [
+      "予（よ）」約（やく）」は」確（かく）」認（にん）」されています。",
+      "彼（かれ）」は」負（ま）」けを」認（みと）」めた"
+    ],
+    "example_unicode": ["", ""],
+    "example_zawgyi": ["", ""],
+    "example_english": [
+      "I have a confirmed reservation.",
+      "He admitted his defeat."
+    ],
+  },
+  {
+    "id": 16,
+    "lesson": 1,
+    "day": 2,
+    "kanji": "飛",
+    "key": [],
+    "mean": ["", "", ""],
+    "url": ".gif",
+    "strokes": 9,
+    "kun": ["と.ぶ"],
+    "on": ["ヒ "],
+    "compound": ["飛行場", "飛ぶ"],
+    "compound_furigana": ["飛（ひ）」行（こう）」場（じょう）", "飛（と）」ぶ"],
+    "compound_unicode": ["", ""],
+    "compound_zawgyi": ["", ""],
+    "compound_english": ["an airport", "fly"],
+    "example": ["飛行機はすでに飛行場を立っていた。", "飛行機は山の上を飛んだ。"],
+    "example_furigana": [
+      "飛（ひ）」行（こう）」機（き）」はすでに」飛（ひ）」行（こう）」場（じょう）」を」立（た）」っていた。",
+      "飛（ひ）」行（こう）」機（き）」は」山（やま）」の」上（うえ）」を」飛（と）」んだ。"
+    ],
+    "example_unicode": ["", ""],
+    "example_zawgyi": ["", ""],
+    "example_english": [
+      "The plane had already left the airport.",
+      "The plane flew over the mountain."
     ],
   },
 ];

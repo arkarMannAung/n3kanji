@@ -1,4 +1,4 @@
-import 'kai.dart';
+import 'khaing.dart';
 
 void main(List<String> args) {
   for (int i = 0; i < data.length; i++) {
